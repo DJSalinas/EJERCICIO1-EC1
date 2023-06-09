@@ -1,0 +1,55 @@
+http://localhost:8080/ws/dias.wsdl
+###
+
+POST http://localhost:8080/ws
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getDiasRequest>
+         <gs:name>Monday</gs:name>
+      </gs:getDiasRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+###
+POST http://localhost:8080/ws
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getDiasRequest>
+         <gs:name>Sunday</gs:name>
+      </gs:getDiasRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+###
+POST http://localhost:8080/ws
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getDiasRequest>
+         <gs:name>Friday</gs:name>
+      </gs:getDiasRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+###
+
+POST http://localhost:8080/ws
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getDiasRequest>
+         <gs:name>Thuesday</gs:name>
+      </gs:getDiasRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+
+
